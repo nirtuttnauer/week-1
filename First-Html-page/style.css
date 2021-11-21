@@ -1,0 +1,43 @@
+.top{
+    background-color: #E4F9F5;
+    height: 580px;
+}
+.topCloud{
+    margin-right: 300px;
+    margin-top: 40px;
+    float: right;
+}
+.bottomCloud{
+    margin-left: 250px;
+    margin-bottom: 300px;
+    float: left;
+}
+h1{
+    font-family:'Sacramento';
+    text-align: center;
+    color: #66BFBF;
+}
+h4{
+    font-family: 'Montserrat';
+    color: #66BFBF;
+}
+body{
+     color: #40514E;
+    text-align: center;
+}
+h5{
+    color:#EAF6F6;
+}
+.mountain{
+    width: 500px;
+    height: 300px;
+    float: center;
+}
+h3{
+    font-family: 'Montserrat';
+    color: #11999E;
+}
+.div1{
+    text-align: left;
+    direction: ltr;
+}
