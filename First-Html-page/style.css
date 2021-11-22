@@ -92,6 +92,7 @@ hr{
     position: relative;
     width:70%;
     display:inline-block;
+    float:left;
 }
 
 #gif-1{
@@ -105,6 +106,8 @@ hr{
     float:right;
     position: relative;
     text-align: left;
+    float:left;
+    padding-left:20px;
 
 }
 #debug-p{
