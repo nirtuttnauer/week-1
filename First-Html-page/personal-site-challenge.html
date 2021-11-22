@@ -4,44 +4,63 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Personal Site Challenge </title>
-        <link rel="stylesheet" href="styles.css">
         <!-- Font Import -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet"> -->
         <!-- CSS Files -->
+        <link rel="stylesheet" href="./style.css">
+
     </head>
     <body>
-        <div class='container'>
+        
         <div class='header'>
-            <h1>I'm a Dev Club Member.</h1>
-            <p>a programmer</p>
-            <img src='asset/mountain.png'/>
+            <div class='container'>
+                <h1 class='header-text'>I'm a Dev Club Member.</h1>
+                <h2 class='header-text'>a <u>pro</u>grammer</h2>
+                <img id='mountain-img' src='asset/mountain.png'/>
+            </div>
+            <img src='asset/cloud.png' id='cloud-1'/>
+            <img src='asset/cloud.png' id='cloud-2'/>
+                                              
         </div>
         <div class='main_text'>
-            <h2>Hello.</h2>
-            <p>I am a Web Developer.And I ❤️ to code</p>
-            <h2>My Skills.</h2>
-            <div>
-                <h3>Design & Development</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
-                </p>
-            </div>
-            <div>
-                <h3>Debugging</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
-                </p>
-            </div>
-            <div>
-                <h3>Get In Touch</h3>
-                <h4>If you love coding as much as I do.</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci consectetur quisquam deleniti, molestiae reiciendis atque hic blanditiis suscipit voluptates harum ducimus, rerum alias! Quos cum, sequi molestiae itaque id sunt!
-                </p>
+            <div class='container'>
+                <img src='asset/profile-pic.png' id='profile-img'/>
+                <h2>Hello.</h2>
+                <p>I am a Web Developer.And I ❤️ to code</p>
+                <hr>
+                <h2>My Skills.</h2>
+                <div id='dnd-div'>
+                    <h3>Design & Development</h3>
+                    <p id='designndev-p'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
+                    </p>
+                    <img src='asset/comp-gif.gif' id='gif-1'/>
+                </div>
+                <div id='debug-div'>
+                    <img src='asset/comp2-gif.gif' id='gif-2'/>
+                    <div id='debug-div-right'>
+                        <h3>Debugging</h3>                    
+                        <p id='debug-p'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
+                        </p>
+                    </div>
+                </div>
+                <div class='clear'></div>
+                <hr>
+                <div>
+                    <h2>Get In Touch</h2>
+                    <h3>If you love coding as much as I do.</h3>
+                    <p id='getintouch-p'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci consectetur quisquam deleniti, molestiae reiciendis atque hic blanditiis suscipit voluptates harum ducimus, rerum alias! Quos cum, sequi molestiae itaque id sunt!
+                    </p>
+                </div>
+                <button id='contact-btn'>CONTACT ME</button>
             </div>
         </div>
-        <div class ='footer'></div>
-            LinkedIn
-            Twitter
-            Website
-            © DevClub
+        <div class ='footer'>
+            <div class='container'>
+                <label class='footer-socials'>LinkedIn</label>
+                <label class='footer-socials'>Twitter</label>
+                <label class='footer-socials'>Website</label>
+                <label class='footer-text'>© DevClub</label>
+            </div>
         </div>
     </body>
 </html>
