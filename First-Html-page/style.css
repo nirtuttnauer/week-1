@@ -1,11 +1,23 @@
+/*impoprts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap');
+/**/
+
 body{
     margin:0;
+    font-family: 'Merriweather';
+    font-size:small;
 }
-
+h1{
+    font-family: 'Sacramento';
+}
+h2,h3,h4,h5,h6,h7{
+    font-family:'Montserrat';
+}
 h1,h2{
     color:#66BFBF;
     margin: 10px 0px 20px 0px;
-
 }
 h3{
     color:#11999E;
@@ -61,6 +73,9 @@ hr{
     margin:20px 0px 5px 0px;
     display: block;
 }
+.subjects-div{
+    margin: 50px 0px 50px 0px;
+}
 #contact-btn{
     color:white;
     background-color: #11cdd4;
@@ -74,18 +89,18 @@ hr{
 }
 #dnd-div{
     text-align: left;
-    margin: 100px 0px 50px 0px;
-}
-#designndev-p{
     position: relative;
-    display: inline-block;
     width:70%;
+    display:inline-block;
 }
+
 #gif-1{
     width:150px;
     display: inline-block;
+    float:right;
 }
-#debug-div-right{
+#debug-div{
+    text-align: left;
     width:70%;
     float:right;
     position: relative;
