@@ -71,6 +71,10 @@ main {
   height: 100%;
   object-fit: contain;
 }
+.contact {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 main button:hover {
   background-color: #30e3cb;
 }
@@ -85,10 +89,33 @@ main button {
 }
 
 footer {
-  display: block;
   width: auto;
   height: auto;
-  margin-left: 25%;
-  margin-right: 25%;
-  border: 5px solid blue;
+  text-align: center;
+  margin: auto;
+  padding: 3%;
+  background-color: #66bfbf;
+}
+.links {
+  color: #11999e;
+  font-family: Montserrat;
+  padding-bottom: 2%;
+}
+.links a {
+  margin-left: 1%;
+}
+.links a:hover {
+  color: #10ced4;
+}
+.links a:visited {
+  color: #11999e;
+}
+.links a:link {
+  color: #11999e;
+}
+.links a:active {
+  color: #11999e;
+}
+.copy_right p {
+  color: green;
 }
