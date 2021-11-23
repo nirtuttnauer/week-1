@@ -1,57 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+html {
+  width: 100%;
+  height: 100%;
+}
 body {
-  position: relative;
-  background-color: hsl(229, 57%, 11%);
-  background-image: url("assets/bg-desktop.png");
+  width: 100%;
+  height: 100%;
+  background: url(assets/bg-desktop.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: -100%;
-  padding: 0;
-  margin: 0%;
+  background-size: 100% 50%;
+  background-position: bottom;
+  background-color: hsl(229, 57%, 11%);
+  font-family: "Raleway";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  display: flex;
-}
-.container div {
-}
-.box1 {
-  flex: 1;
-  width: 30%;
-  height: 30%;
-  background-color: hsl(228, 56%, 26%);
-}
-.loading-bar {
   position: relative;
-  width: 35%;
-  height: 2em;
-  background-color: hsl(229, 57%, 11%);
-  border-radius: 1.5em;
-}
-.inner-bar {
   display: flex;
+  gap: 50px;
+  align-items: flex-end;
+}
 
-  position: absolute;
-  align-items: center;
-  width: 68%;
-  height: 80%;
+.fylo {
+  background-color: hsl(228, 56%, 26%);
+  width: 330px;
+  height: 250px;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 15px 100px 15px 15px;
+  gap: 32px;
+}
+.items {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.imgItem {
+  background-color: hsl(229, 57%, 11%);
+  padding: 15px;
+  border-radius: 20%;
+  width: 100%;
+}
 
-  border-radius: 1em;
+.databar {
+  background-color: hsl(228, 56%, 26%);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 15px;
+  justify-content: center;
+  width: 700px;
+  font-size: 22.4px;
+  gap: 30px;
+}
+.loadingbar {
+  height: 24px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 50px;
+  padding: 5px;
+}
+.innerbar {
+  width: 81%;
   background-image: linear-gradient(
     to right,
     hsl(6, 100%, 80%),
     hsl(335, 100%, 65%)
   );
-  left: 0.5em;
-  top: 0.2em;
-  right: 0.5em;
-  bottom: 0.5em;
+  height: 100%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.circle {
-  height: 75%;
-  width: 4.5%;
-  background-color: white;
+.dot {
+  background: white;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
-
+  margin-right: 5px;
+}
+.lowertext {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.bubble {
+  box-sizing: content-box;
   position: absolute;
-  left: 93%;
+  background: #ffffff;
+  color: #000000;
+  border: #000000 solid 1px;
+
+  padding: 10px;
+  font-size: 48px;
+  font-weight: bold;
+  right: 60px;
+  top: -20px;
+  border: 1px black solid;
+
+  border-radius: 25px 25px 0px 25px;
+}
+.bubble::after {
+  content: "";
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 25px solid white;
+  border-left: 25px solid transparent;
+  left: 10px;
+  bottom: -90px;
+}
+.gbleft {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(158, 158, 158);
+  text-align: center;
 }
