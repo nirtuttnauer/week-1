@@ -69,6 +69,8 @@ body {
     height: 50px;
     background-color: hsl(229, 57%, 11%);
     border-radius: 10px;
+}
+.uploadMethod div:not(:last-child) {
     margin-right: 20px;
 }
 
@@ -81,10 +83,13 @@ body {
     height: 100%;
     flex-basis: 65%;
     /* justify-content: flex-end; */
-    outline: 2px solid white;
 }
 
 .storageBox {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    transform: translate(0%, -100%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -135,9 +140,10 @@ body {
 
 /***** white bar *****/
 .whiteBarContainer {
-    position: relative;
-    left: 67%;
-    top: 10%;
+    position: absolute;
+    left: 90%;
+    transform: translate(-100%,0%);
+    z-index: 1;
 }
 .whiteBar {
     display: flex;
