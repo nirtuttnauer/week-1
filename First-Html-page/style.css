@@ -1,118 +1,115 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento");
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Merriweather";
+}
 
-.header {
+.heading {
   position: relative;
-
-  text-align: center;
-  box-sizing: content-box;
-  background-color: #e4f9f5;
-  height: 33%;
-  padding-top: 5%;
+  background: #e4f9f5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 100px;
 }
 h1 {
-  font-family: "Sacramento";
   color: #66bfbf;
-  font-size: 45px;
+  font-family: "Sacramento";
+  font-size: 50px;
 }
 h2 {
-  text-align: center;
   color: #66bfbf;
   font-family: "Montserrat";
 }
-h3 {
-  font-family: "Montserrat";
-  color: #11999e;
-}
 .cloud1 {
-  
   position: absolute;
   right: 300px;
   top: 40px;
 }
 .cloud2 {
-  
   position: absolute;
   left: 250px;
   bottom: 300px;
 }
 .underhead {
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
 }
-.myImg {
-  width: 10%;
+.myimg {
   border-radius: 50%;
+  width: 50%;
 }
 hr {
   border: none;
   border-top: 10px dotted #c0dbdb;
   width: 10%;
-  margin-top: 5%;
+  margin: 100px 0px;
 }
-.main {
-  margin: auto;
-
-  font-family: "Merriweather";
-  width: 60%;
-}
-.container {
-  padding-top : 3%;
-  padding-bottom: 3%;
-}
-
-.gif1 {
-  width: 30%;
-  float: right;
-  padding-left: 3%;
-}
-
-.gif2{
-  width: 30%;
-  float:left;
-  padding-right: 3%;
-  max-width: 30%;
-}
-.midhr{
-  margin-top: 10%;
-}
-.intouch{
-  padding-top: 5%;
+.parapraphs {
+  width: 50%;
   text-align: center;
-  width: 60%;
-  margin: auto;
-  font-family: "Merriweather";
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.dnd {
+  display: flex;
+}
+.dnd div {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+h3 {
+  color: #11999e;
+  font-family: "Montserrat";
+}
+.gif1 {
+  margin-left: 15px;
+  height: 200px;
+}
+.gif2 {
+  margin-right: 15px;
+  height: 200px;
+}
+.almostfooter {
+  text-align: center;
+  width: 40%;
+  line-height: 2;
 }
 .ctme {
-  font-family: 'Montserrat';
- 
-  background-color: #11cdd4;
+  font-family: "Montserrat";
+  font-weight: bold;
   border: none;
+  background-color: #11cdd4;
   color: white;
-  padding: 5px 27px;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 50px;
+}
+.ctme:hover {
+  background-color: #30e3cb;
+}
+.footer1 {
   text-align: center;
- 
-  font-size: 20px;
-  border-radius: 10px;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  
-}
-.ctme:hover{
-  background-color: #30e3cb ;
-}
-footer{
-  font-family: 'Montserrat';
-  left: 0;
-  bottom: 0;
+  background: #66bfbf;
   width: 100%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  background-color: #66BFBF;
-  color:white;
-  text-align: center;
+  padding: 100px;
+  color: white;
 }
-.links{
-  color:#11999E;
+.links {
+  color: #11999e;
+  word-spacing: 50px;
+  margin-bottom: 50px;
 }
-

@@ -98,7 +98,7 @@ body {
   color: #000000;
   border: #000000 solid 1px;
 
-  padding: 10px;
+  padding: 20px;
   font-size: 48px;
   font-weight: bold;
   right: 60px;
@@ -114,8 +114,8 @@ body {
   height: 0;
   border-top: 25px solid white;
   border-left: 25px solid transparent;
-  left: 10px;
-  bottom: -90px;
+  left: 20px;
+  bottom: -100px;
 }
 .gbleft {
   font-family: Arial, Helvetica, sans-serif;
