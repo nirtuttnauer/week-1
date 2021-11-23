@@ -1,0 +1,65 @@
+*{
+    font-family: 'Merriweather';
+    text-align: center;
+}
+#cl1{
+    margin-top: 40px;
+    margin-right: 300px;
+}
+#cl2{
+margin-left: 250pxs;
+}
+#mn1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; 
+    }
+
+
+#myImg{
+        border-radius: 50%;
+        width: 10%; 
+      }
+      
+
+
+#main-header{
+    background-color: #E4F9F5 ;
+}
+#main-footer{
+    background-color: #66BFBF ;
+    color: #EAF6F6;
+}
+.main{
+    color: #40514E;
+}
+h1{
+    font-family: 'Sacramento';
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat';
+    color: #66BFBF
+}
+h3{
+    font-family: 'Montserrat';
+    color: #11999E;
+}
+h4{
+    font-family: 'Montserrat';
+}
+h5{
+    font-family: 'Montserrat';
+}
+h6{
+    font-family: 'Montserrat';
+}
+button{
+    background-color: #11cdd4 ;
+    color: white;
+}
+button:hover {
+    background-color: #30e3cb;
+  }
+
