@@ -11,11 +11,11 @@ body {
 }
 .container {
   display: block;
-  border: 5px solid red;
   width: auto;
   height: auto;
   margin-left: 33%;
   margin-top: 6%;
+  position: relative;
 }
 .boxes {
   display: flex;
@@ -32,6 +32,9 @@ body {
   border-radius: 10px 60px 10px 10px;
 }
 .right_b {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background: hsl(228, 56%, 26%);
   order: 2;
   height: 110px;
