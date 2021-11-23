@@ -1,8 +1,40 @@
 body {
+  display: flex;
   background-color: hsl(229, 57%, 11%);
   background-image: url("../assets/bg-desktop.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-attachment: fixed;
   background-size: contain;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  display: block;
+  border: 5px solid red;
+  width: auto;
+  height: auto;
+  margin-left: 33%;
+  margin-top: 6%;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 32px;
+  align-items: flex-end;
+  width: 80%;
+}
+.left_b {
+  background: hsl(228, 56%, 26%);
+  order: 1;
+  height: 150px;
+  width: 350px;
+  border-radius: 10px 60px 10px 10px;
+}
+.right_b {
+  background: hsl(228, 56%, 26%);
+  order: 2;
+  height: 110px;
+  width: 512px;
+  border-radius: 10px 10px 10px 10px;
 }
