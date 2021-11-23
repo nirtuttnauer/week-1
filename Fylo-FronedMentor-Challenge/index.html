@@ -3,20 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <title>Fylo data storage component</title>
 </head>
 
 <body>
+  <div class="container">
+    <div class="main">
+      
+      <div class="options">
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="Fylo">
+        </div>
+        <div class="uploadMethod">
+          <div>
+            <img src="./assets/icon-document.svg" alt="document">
+          </div>
+          <div>
+            <img src="./assets/icon-folder.svg" alt="folder">
+          </div>
+          <div>
+            <img src="./assets/icon-upload.svg" alt="upload">
+          </div>
+        </div>
+      </div>
 
-  You’ve used 815 GB of your storage
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
+
+      <div class="storage">
+        <div class="storageBox">
+          <p class="mainText">You've used <b>815 GB </b>of your storage</p>
+          <div class="progressBarContainer">
+            <div class="progressBar">
+              <div class="progressBarFill">
+                <div class="progressBarBall"></div>
+              </div>
+            </div>
+            <div class="minAndMax">
+              <p class="mainText">0 GB</p>
+              <p class="mainText">1000 GB</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+    <div class="whiteBar">
+      <div class="triangle"></div>
+      <p class="headline">185</p>
+      <p class="mainText"><B>GB LEFT</B></p>
+    </div>
+
+
+
+  </div>
   
 </body>
 </html>
