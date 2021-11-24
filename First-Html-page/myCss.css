@@ -1,22 +1,29 @@
 div{
-    text-align: center;
     font-family: 'Merriweather';
 }
 section{
     text-align: center;
 }
 #cl1{
-    margin-top: 40px;
-    margin-right: 300px;
+position: absolute;
+right: 300px;
+top: 40px;
+width: 10%; 
+
 }
 #cl2{
-margin-left: 250pxs;
+    position: absolute;
+    left: 250px;
+    width: 10%; 
+}
+.underline{
+    text-decoration: underline
 }
 #mn1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%; 
+    width: 30%; 
     }
 #myImg{
         border-radius: 50%;
