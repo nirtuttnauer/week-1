@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@100&family=Sacramento&display=swap');
+img gif {float: right;}
+/* .section {
+    position: relative;
+} */
+
+.titleOfField {
+    color: #11999E;
+    font-family: 'Merriweather', serif;
+    /* text-align: center; */
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.titleOfField2 {
+    color: #11999E;
+    font-size: smaller;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.mainHeader {
+    background-color:#E4F9F5;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height:425px;
+}
+#mountain {
+    display: block;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#title {
+    display: block;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom:270px;
+    font-size:35px;
+
+}
+#h2Title {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #66BFBF;
+    font-size:small;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+#profilePicture {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 7%;
+}
+.secondaryTitles {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    text-align: center;
+}
+#personalInformation {
+    color: #40514E;
+    text-align: center;
+}
+.margin {
+    margin-top: 100px;
+}
+#topCloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+#bottomCloud {
+    position: absolute;
+    left: 250px;
+    bottom: 150px;
+}
+.gifAndText {
+    position: relative;
+    margin-bottom: 75px;
+}
+#gif1 {
+    width: 12.5%;
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+}
+#lorem1 {
+    color: #40514E;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+#gif2 {
+    width: 12.5%;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+#lorem2 {
+    color: #40514E;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    right: 15%;
+}
+#lorem3 {
+    color: #40514E;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 100px;
+}
+.contact-me {
+    text-align: center;
+    height: 100px;
+    margin-bottom: 100px;
+
+}
+#contactButton {
+    background-color:rgb(37, 150, 190);
+    color: white;
+    margin: 0;
+    border-radius: 4px;
+    border-width: 0;
+    padding: 0;
+    font-weight:100;
+    font-size: 20px;
+    width: 150px;
+    font-family: 'Merriweather', serif; 
+    
+}
+/* #footer {    
+    background-color: #20bbc0;
+    text-align: center;
+    height: 100px;
+    position:relative;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+.link {
+    padding-top: 25px;
+    color: navy;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+} 
+#footer {
+    display: flex;
+    background-color: #20bbc0;
+    /* position: fixed; */
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    height: 125px;
+    width: 100%;
+    /* border-top: 1p solid white; */
+    justify-content: center;
+    align-items: center;
+}
+#devClub {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 50%;
+}
