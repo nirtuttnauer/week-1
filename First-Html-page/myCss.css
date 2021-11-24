@@ -1,5 +1,8 @@
-*{
+div{
+    text-align: center;
     font-family: 'Merriweather';
+}
+section{
     text-align: center;
 }
 #cl1{
@@ -15,21 +18,26 @@ margin-left: 250pxs;
     margin-right: auto;
     width: 20%; 
     }
-
-
 #myImg{
         border-radius: 50%;
         width: 10%; 
       }
-      
-
-
 #main-header{
     background-color: #E4F9F5 ;
 }
 #main-footer{
     background-color: #66BFBF ;
     color: #EAF6F6;
+}
+.blockquoteDet{
+    text-align: left;
+    font-family: 'Merriweather';
+    width: 680px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.center{
+    text-align: center;
 }
 .main{
     color: #40514E;
