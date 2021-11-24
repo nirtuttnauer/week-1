@@ -19,7 +19,7 @@
 }
 .div2{
     background-color:  hsl(228, 56%, 26%);
-    color:hsl(229, 7%, 55%);
+    color:hsl(243, 100%, 93%);
     font-family: Raleway;
     width: 600px;
     height: 120px;
@@ -50,8 +50,9 @@
 }
 .circle{
     position:absolute;
-    left: 97%;
-    height: 100%;
+    left: 96%;
+    top:3%;
+    height: 93%;
     width: 15px;
     background:white;
     border-radius: 50%;
@@ -127,22 +128,49 @@
     top:35%;
     margin-left: 18px;
 }
-.div5{
-    position: fixed;
+.bubble{
+
+    position: absolute;
     right: 23%;
-    bottom: 52%;
+    bottom: 55%;
     float: right;
-    width: 100px;
-    height: 10px;
+    width: 150px;
+    height: 80px;
     font-family: Raleway;
-    border-radius: 10px;
-    border-left: 10px;
-    border: 45px solid transparent;
-    clip-path: polygon(0% 0%, 100% 0, 100% 60%, 100% 70%, 100% 90%, 90% 75%, 0% 75%);
+    border-radius: 15px 15px 0px 15px;
     background-color: white;
 
+    text-align: left;
 }
+.bubble-bottom-right:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    
+    border-left: 30px solid transparent;
+    border-right: 0px solid #fff;
+    border-top: 40px solid #fff;
+    border-bottom: -30px solid transparent;
+    right:0px;
+    bottom: -20px;
+   
+  }
 .span1{
+    position: absolute;
+    top:20%;
+    left:10%;
     color:hsl(229, 57%, 11%) ;
-    font-size: large;
+    font-size: 35px;
+    font-weight:bolder;
+
+}
+.p4{
+    text-align: right;
+    font-size: 15px;
+    position:absolute;
+    left: 55%;
+    top:20%;
+    font-weight: bolder;
+    color:hsl(229, 7%, 55%);
 }
