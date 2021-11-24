@@ -25,10 +25,13 @@ body {
   width: 80%;
 }
 .left_b {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
   background: hsl(228, 56%, 26%);
   order: 1;
-  height: 150px;
-  width: 350px;
+  height: 180px;
+  width: 410px;
   border-radius: 10px 60px 10px 10px;
 }
 .right_b {
