@@ -1,0 +1,31 @@
+*{
+    background-color:  hsl(229, 57%, 11%);
+}
+
+.img1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.allFylo{
+    outline: 1px solid red;
+    position: absolute;
+    top: 50%;
+    right: 50%
+}
+
+
+.fyloLeft{
+    outline: 3px solid white;
+    float: right;
+
+}
+
+.fyloRight{
+    outline: 3px solid white;
+}
