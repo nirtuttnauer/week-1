@@ -1,3 +1,8 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
 .main{
     background-color: hsl(229, 57%, 11%);
     color:aliceblue;
@@ -12,14 +17,14 @@
 }
 
 .div1{
-    margin-right: 20px;
+    
     border-radius: 15px 70px 15px 5px;
     background-color:hsl(228, 56%, 26%);
-    width:300px;
+    width:360px;
     height: 180px;
     position: relative;
     top:230px;
-    left:300px;
+    left:290px;
 }
 
 .icon1{
@@ -85,11 +90,11 @@
 .div2{
     border-radius: 15px 15px 15px 15px;
     background-color:hsl(228, 56%, 26%);
-    width:500px;
+    width:520px;
     height: 150px;
     position: relative;
     top:65px;
-    left:650px;
+    left:700px;
     
     
 
@@ -145,21 +150,7 @@
     top:70px;
 }*/
 
-.speech_bubble{
-  background-color: white;
-  border: 20px solid transparent;
-  height: 1px;
-  width: 54px;
-  position: fixed;
-  left:980px;
-  top:220px;
-  border-radius: .4em;
-  border-bottom-left-radius:10px;
-  border: 45px solid transparent;
-  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 100% 100%, 100% 100%, 90% 75%, 0% 75%);
-  
-  
-}
+
 
 .circle{
     position:absolute;
@@ -228,8 +219,72 @@
     left:127px;
 }
 
+
 .p3{
     color:black;
-    position: absolute;
-    top:20px;
+    position: fixed;
+    bottom: 53%;
+    
 }
+
+.bubble{
+
+    position: absolute;
+    right: 25%;
+    bottom: 62%;
+    float: right;
+    width: 150px;
+    height: 80px;
+    font-family: Raleway;
+    border-radius: 15px 15px 0px 15px;
+    background-color: white;
+    font-size: 10px;
+    text-align: left;
+}
+
+.bubble-bottom-right:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    
+    border-left: 30px solid transparent;
+    border-right: 0px solid #fff;
+    border-top: 40px solid #fff;
+    border-bottom: -30px solid transparent;
+    right:0px;
+    bottom: -20px;
+   
+  }
+
+  .span1{
+    position: absolute;
+    top:20%;
+    left:10%;
+    color:hsl(229, 57%, 11%) ;
+    font-size: 35px;
+    font-weight:bolder;
+
+}
+.p4{
+    text-align: right;
+    font-size: 15px;
+    position:absolute;
+    left: 55%;
+    top:40%;
+    font-weight: bolder;
+    color:hsl(229, 7%, 55%);
+}
+
+/*.span1{
+    font-size: 30px;
+    color:black;
+    font-family:Raleway;
+   
+}
+
+.span2{
+    font-size: 10px;
+    font-family:Raleway;
+  color:black;
+}*/
