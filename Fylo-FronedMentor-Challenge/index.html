@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900' rel='stylesheet' type='text/css'>
+    <link
+      href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/left.css" />
     <link rel="stylesheet" href="./style/right.css" />
+    <link rel="stylesheet" href="./style/bar.css" />
     <link
       rel="icon"
       type="image/png"
@@ -23,7 +28,12 @@
       <div class="boxes">
         <div class="left_b">
           <div class="logo">
-            <svg class="svgs" xmlns="http://www.w3.org/2000/svg" width="135" height="40">
+            <svg
+              class="svgs"
+              xmlns="http://www.w3.org/2000/svg"
+              width="135"
+              height="40"
+            >
               <path
                 fill="#FFF"
                 fill-rule="evenodd"
@@ -33,7 +43,12 @@
           </div>
           <div class="bouttens">
             <div class="doc">
-              <svg class="svgs" xmlns="http://www.w3.org/2000/svg" width="24" height="20">
+              <svg
+                class="svgs"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="20"
+              >
                 <path
                   fill="#697ED4"
                   d="M12.028 0H2.436A2.387 2.387 0 00.049 2.398L.037 21.583a2.387 2.387 0 002.387 2.398h14.4a2.397 2.397 0 002.398-2.398V7.194L12.028 0zM10.83 8.393V1.8l6.595 6.594h-6.595z"
@@ -41,7 +56,12 @@
               </svg>
             </div>
             <div class="folder">
-              <svg class="svgs" xmlns="http://www.w3.org/2000/svg" width="24" height="20">
+              <svg
+                class="svgs"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="20"
+              >
                 <path
                   fill="#697ED4"
                   d="M21.6 2.4H12L9.6 0H2.4A2.39 2.39 0 00.012 2.4L0 16.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4v-12a2.4 2.4 0 00-2.4-2.4z"
@@ -49,7 +69,12 @@
               </svg>
             </div>
             <div class="upload">
-              <svg class="svgs" xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+              <svg
+                class="svgs"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="16"
+              >
                 <path
                   fill="#697ED4"
                   d="M19.4 6c-.7-3.4-3.7-6-7.4-6-2.9 0-5.4 1.6-6.6 4C2.3 4.4 0 6.9 0 10c0 3.3 2.7 6 6 6h13c2.8 0 5-2.2 5-5 0-2.6-2.1-4.8-4.6-5zM14 9v4h-4V9H7l5-5 5 5h-3z"
@@ -59,16 +84,25 @@
           </div>
         </div>
         <div class="right_b">
-          <div class="row1"> <p  class="Text_2 main" >You’ve used <span class="Text_1">815 GB</span> of your storage</p></div>
-          <div class="row2"><div class="bar"></div></div>
-          <div class="row3">
-          <div class="col1"><p class="Text_1 main">0 GB</p></div>
-          <div class="col2"><p class="Text_1 main">1000 GB</p></div>
-          <div class="col3"></div>
-          <div class="info"><p class="headline"><span class="bold">185</span> GB Left</p></div>
+          <div class="row1">
+            <p class="text_2">
+              You’ve used <span class="text_1">815 GB</span> of your storage
+            </p>
           </div>
-          
-            
+          <div class="row2">
+            <div class="bar">
+              <div class="child progress"></div>
+              <div class="child shrinker timelapse"></div>
+            </div>
+          </div>
+          <div class="row3">
+            <div class="col1"><p class="text_3">0 GB</p></div>
+            <div class="col2"><p class="text_3">1000 GB</p></div>
+          </div>
+
+          <div class="info">
+            <p class="box_text test"><span class="bold_text">185</span> GB Left</p>
+          </div>
         </div>
       </div>
     </div>
