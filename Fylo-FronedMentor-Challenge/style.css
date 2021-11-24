@@ -34,7 +34,7 @@
     width: 500px;
     position: relative;
     left: 30px;
-    top: 35px;
+    top: 50px;
     background-color:  hsl(229, 57%, 11%);
     border-radius: 20px;
     border: 2px solid hsl(229, 57%, 11%);
@@ -88,7 +88,7 @@
     width:220px;
     height: 60px;
     position: absolute;
-    top: 70px;px;
+    top: 70px;
     left:10px;
     flex-wrap: wrap;
 
@@ -126,4 +126,23 @@
     position: absolute;
     top:35%;
     margin-left: 18px;
+}
+.div5{
+    position: fixed;
+    right: 23%;
+    bottom: 52%;
+    float: right;
+    width: 100px;
+    height: 10px;
+    font-family: Raleway;
+    border-radius: 10px;
+    border-left: 10px;
+    border: 45px solid transparent;
+    clip-path: polygon(0% 0%, 100% 0, 100% 60%, 100% 70%, 100% 90%, 90% 75%, 0% 75%);
+    background-color: white;
+
+}
+.span1{
+    color:hsl(229, 57%, 11%) ;
+    font-size: large;
 }
