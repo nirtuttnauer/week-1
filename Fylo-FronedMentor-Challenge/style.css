@@ -8,7 +8,7 @@ body {
     background-color: hsl(229, 57%, 11%);
     background-image: url(./assets/bg-desktop.png);
     background-repeat: no-repeat;
-    background-position: 0% 130%;
+    background-position: 0% 100%;
     background-size: 100%;
 }
 
@@ -183,10 +183,9 @@ body {
         flex-direction: column;
         height: 65%;
         flex-basis: 85vw;
-        outline: 1px solid white;
     }
     .options {
-        flex-basis: 40%;
+        flex-basis: 45%;
         justify-content: space-around;
         border-radius: 15px 90px 15px 15px;
     }
@@ -213,7 +212,7 @@ body {
         padding: 60px 50px;
         text-align: center;
         height: 70%;
-        top: 70%;
+        top: 80%;
     }
     .whiteBarContainer {
         left: 50%;
@@ -233,6 +232,10 @@ body {
     .triangle {
         border-right: 35px solid transparent;
     }
+    .whiteBar .mainText {
+        font-size: 22.4px;
+    }
+    
 
 
 }
