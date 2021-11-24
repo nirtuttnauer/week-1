@@ -184,47 +184,56 @@ body {
         height: 65%;
         flex-basis: 85vw;
     }
+    .mainText {
+        font-size: 1.1em;
+    }
     .options {
         flex-basis: 45%;
         justify-content: space-around;
         border-radius: 15px 90px 15px 15px;
+        padding: 3vh;
     }
 
     .storage {
         flex-basis: 50%;
-        border-radius: ;
     }
     .logo {
-        display: flex;
-        align-items: stretch;
+        /* display: flex;
+        align-items: stretch; */
+        padding: 3vw;
+
     }
     .logo img {
-        height: 60px;
+        height: 6vh;
+    }
+    .uploadMethod {
+        width: auto;
+        padding: 0px 1vw;
     }
     .uploadMethod div {
-        width: 80px;
-        height: 80px;
+        width: 8vh;
+        height: 8vh;
         align-items: stretch;
-        padding: 20px;
+        padding: 2vh;
     }
     .storageBox {
         border-radius: 15px;
-        padding: 60px 50px;
+        padding: 3vh 7vw;
         text-align: center;
-        height: 70%;
-        top: 80%;
+        height: 75%;
+        top: 25vh;
     }
     .whiteBarContainer {
         left: 50%;
-        bottom: 0%;
+        bottom: -20%;
         transform: translate(-50%,0%);
     }
     .whiteBar {
+        justify-content: space-around;
         height: 100px;
         width: 250px;
         background-color: white;
         border-radius: 15px;
-        padding: 0px 35px;
     }
     .storageLeft {
         margin-right: 5px;
