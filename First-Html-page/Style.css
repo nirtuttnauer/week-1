@@ -1,0 +1,165 @@
+body {
+    margin:0;
+    
+}
+.under{
+    text-decoration:underline;
+}
+.cloudleft{
+    height: 80px;
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.cloudright{
+    height: 80px;
+    position:absolute;
+    right: 300px; 
+    top: 40px;
+}
+.imgs{
+    margin: 50px;
+    border-radius: 9em;
+    box-shadow: 0px 0px 20px #000000;
+}
+.imgs:hover{
+
+    cursor:pointer;
+}
+
+.imgk{
+    size-adjust: 1;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.flex-container-header {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    /* display: flex; */
+    /* flex-wrap:initial; */
+    font-size: 60px;
+    text-align: center;
+    background-color: #E4F9F5;
+  }
+  .flex-item-header {
+    
+    flex: 50%;
+  }
+
+  .flex-container-body {
+    padding-left: 400px; 
+    padding-right: 400px;
+    margin: 200px ;
+    display: flex;
+    flex-wrap: initial;
+    font-size: 30px;
+    text-align: center;
+  }
+  .flex-item-body {
+     
+    flex: 50%;
+  }
+  .flex-container-text {
+    display: flex;
+    flex-wrap: inherit;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 100px ;
+  }
+  .flex-item-text {
+    margin: 20px ; 
+    flex: 50%;
+  }
+  .flex-container-footer {
+      
+    padding: auto;
+    justify-content: left;
+    padding: 50px;
+    padding-left: 300px; 
+    padding-right: 300px;
+    display: flex;
+    flex-wrap:nowrap;
+    font-size: 30px;
+    text-align: center;
+    background-color: #66BFBF;
+    color: white;
+   
+  }
+  a{
+    text-decoration: none;
+  }
+  .flex-item-footer {
+      color: #11999E;
+    font-family: Montserrat;
+    margin: 0px;
+    font-size: 30px;
+    flex: 50%;
+    
+    
+  }
+ 
+.footer-copyright{
+    color: #EAF6F6;
+}
+
+  h1{
+    color:#66BFBF;
+    font-family: Sacramento;
+  }
+  h2{
+    color:#66BFBF;
+    font-family: Montserrat;
+  }
+  h3{
+    color:#11999E;
+    font-family: Montserrat;
+  }
+  p{
+      
+      margin: 10px;
+      color: #40514E;
+      font-family: Merriweather;
+      font-size: inherit;
+  }
+  button{
+    margin: 100px;
+    padding: 20px;
+    border-style: initial;
+    border-radius: 0.2em;
+    font-size: 80px;
+      color: white;
+      background-color: #11cdd4 ;   
+  }
+  button:hover{
+      cursor:pointer;
+    background-color: #30e3cb ;
+    color: white;
+  }
+
+  
+/*
+  ### Colors: 
+    header background = #E4F9F5
+    footer background = #66BFBF
+    hr and footer text = #EAF6F6
+    main text = #40514E
+    h1 & h2 = #66BFBF
+    h3 =  #11999E
+    button =  #11cdd4 => hover = #30e3cb
+    button text = white
+
+### Fonts (google font):
+    main = 'Merriweather'
+    h1 = 'Sacramento'
+    h2-6 = 'Montserrat'
+
+### Positions: 
+    top cloud = right: 300px, top: 40px
+    bottom cloud = left: 250px, bottom: 300px
+
+---

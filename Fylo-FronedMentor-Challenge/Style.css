@@ -1,0 +1,194 @@
+html{
+    height: 100%;
+    align-items: center;
+    display: grid;
+}
+body{
+
+margin: 0;
+    background-color:hsl(229, 57%, 11%) ;
+    font-family: 'Raleway', 22.5px, regular;
+    background-image:url(assets/bg-desktop.png);
+    background-position: bottom;
+    background-size: 100% 50%;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    color: white;
+    
+
+}
+.img{
+    height: 25px;
+    margin: inherit;
+}
+button{
+    background-color: hsl(229, 57%, 11%);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20%;
+    
+}
+button:hover {opacity: 1}
+
+.container{
+    display: flex;
+    justify-content:flex-start;
+    width:  80%;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    height: 200px;
+}
+
+.item{
+    align-self: auto;
+
+}
+
+.ButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.LeftBox{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex: .25;
+    border-top-right-radius: 85px;
+    align-self: stretch;
+}
+
+.RightBox{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    flex: .6;
+    align-self: flex-end;
+    height: 30%;
+    position: relative;
+    font-family: 'Merriweather';
+    
+}
+.RightBox_header{
+    margin-bottom: 10px;
+}
+
+.bar__wrapper{
+    border-radius: 20px;
+    width: 100%;
+    height: 20px;
+    background-color: hsl(229, 57%, 18%);
+    padding: 3px;
+}
+
+.bar__used{
+    display:inline-block;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: inherit;
+    width: 81.5%;
+    height: 20px;
+}
+
+.bar__used::after{
+    content: '';
+    width: 17px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: white;
+    float: right;
+    margin-top: 1px;
+    margin-right: 2px;
+
+}
+
+.bar__info{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-family: 'Merriweather';
+}
+
+.box__right--pop{
+    position: absolute;
+    background-color:white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    top: -40px;
+    right: 30px;
+    line-height: 25px;
+    display: flex;
+    gap: 10px  ;
+    font-family: 'Merriweather';
+}
+
+.box__right--pop:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    bottom: -20px;
+    right: 0.2px;
+    width: 0;
+    height: 0;
+    border-top: 25px solid white;
+    border-left: 25px solid transparent;
+    font-family: 'Merriweather';
+}
+
+.pop--num{
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.pop--text{
+    color: hsl(229, 7%, 55%);
+    font-family: 'Merriweather';
+}
+
+/* ## STYLE GUIDE:
+
+Please fill free to use this style guide to complete the task.
+
+### Colors: 
+    Progress bar gradient = hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
+    Site background = hsl(229, 57%, 11%)
+    Floating sections = hsl(228, 56%, 26%)
+    Text 1 color = hsl(229, 7%, 55%)
+    Text 2 color = white
+    Icon color = hsl(243, 100%, 93%)
+
+### Fonts (google font):
+    main = 'Raleway' , 22.4px , regular
+    headline = 'Raleway' , 48px , bold
+
+### Positions: 
+    Row Width = 80%
+    Col Gap = 32px;
+
+--- */
