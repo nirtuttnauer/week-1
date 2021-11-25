@@ -1,6 +1,4 @@
 /*impoprts*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap');
 /**/
 
@@ -91,13 +89,10 @@ hr{
     text-align: left;
     position: relative;
     width:70%;
-    display:inline-block;
     float:left;
 }
-
 #gif-1{
     width:150px;
-    display: inline-block;
     float:right;
 }
 #debug-div{
@@ -108,7 +103,6 @@ hr{
     text-align: left;
     float:left;
     padding-left:20px;
-
 }
 #debug-p{
     display: inline;
