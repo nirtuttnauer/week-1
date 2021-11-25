@@ -1,9 +1,8 @@
-/**/
+
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-/**/
 h1{
     font-family: 'Sacramento';
     font-size: 70px;
@@ -76,3 +75,22 @@ div.container{
 .cloud2 img{
     padding:0px 1500px 0px 0px;
 }
+.text1{
+    display: flex;
+    justify-content: space-between;
+}
+.gif1 img{
+    height: 200px;
+    width: 300px;
+    
+}
+.text2{
+    display: flex;
+    justify-content: space-between;
+}
+.gif2 img{
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+
