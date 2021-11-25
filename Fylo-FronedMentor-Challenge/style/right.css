@@ -1,32 +1,36 @@
 .row1 {
   order: 1;
   align-self: flex-start;
+  margin: -23px auto -12px 50px;
 }
 
 .row2 {
   order: 2;
   align-self: flex-start;
+  margin: 8px 8px -6px 50px;
 }
 .row3 {
   order: 3;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   align-self: stretch;
+  margin: 4px auto 14px 30px;
 }
 .col1 {
   order: 1;
   align-self: flex-end;
+  margin: -9px -19px 16px 20px;
 }
 .col2 {
   order: 1;
   align-self: flex-start;
+  margin: -9px auto auto 400px;
 }
 
 .info {
   position: relative;
   background: white;
-  bottom: 20px;
+  bottom: 25px;
   right: -155px;
   height: 60px;
   width: 180px;
