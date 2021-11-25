@@ -12,14 +12,14 @@ body {
     background-size: 100%;
 }
 
-.storageLeft {
+.whiteBar__bold {
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: bold;
     margin-right: 10px;
 }
 
-.mainText {
+p {
     font-family: 'Raleway', sans-serif;
     font-size: 22.4px;
     color: white;
@@ -43,7 +43,7 @@ body {
 
 /***** options *****/
 
-.options {
+.upload {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -56,12 +56,12 @@ body {
     padding: 40px 0px 30px 50px;
 }
 
-.uploadMethod {
+.upload__method {
     display: flex;
     width: 100%;
     padding: 0px 50px;
 }
-.uploadMethod div {
+.upload__img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ body {
     background-color: hsl(229, 57%, 11%);
     border-radius: 10px;
 }
-.uploadMethod div:not(:last-child) {
+.upload__img:not(:last-child) {
     margin-right: 20px;
 }
 
@@ -98,7 +98,7 @@ body {
 }
 
 /***** progress bar *****/
-.progressBarContainer {
+.storageBox__progressBarContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +112,7 @@ body {
     outline: 2px solid hsl(229, 57%, 11%);
     border-radius: 50px;
 }
-.progressBarFill {
+.progressBar__fill {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -121,14 +121,14 @@ body {
     width: 70%;
     border-radius: 50px;
 }
-.progressBarBall {
+.progressBar__ball {
     height: 18px;
     width: 18px;
     background-color: white;
     border-radius: 50px;
     outline: 2px solid hsl(335, 100%, 65%);
 }
-.minAndMax {
+.storageBox__minAndMax {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -136,7 +136,7 @@ body {
 
 
 /***** white bar *****/
-.whiteBarContainer {
+.storage__whiteBarContainer {
     position: absolute;
     left: 90%;
     transform: translate(-100%,0%);
@@ -153,16 +153,16 @@ body {
     border-radius: 10px;
     padding: 0px 15px;
 }
-.triangle {
+.whiteBar__triangle {
     position: absolute;
-	border-top: 20px solid transparent;
+    border-top: 20px solid transparent;
 	border-right: 35px solid white;
 	border-bottom: 30px solid transparent;
     left: 100%;
     top: 100%;
     transform: translate(-100%,-70%);
 }
-.whiteBar .mainText {
+.whiteBar__text {
     color: rgb(168, 167, 167);
     font-size: 16px;
 }
@@ -184,7 +184,7 @@ body {
     .mainText {
         font-size: 1.1em;
     }
-    .options {
+    .upload {
         flex-basis: 45%;
         justify-content: space-around;
         border-radius: 15px 90px 15px 15px;
@@ -201,11 +201,11 @@ body {
     .logo img {
         height: 6vh;
     }
-    .uploadMethod {
+    .upload__method {
         width: auto;
         padding: 0px 1vw;
     }
-    .uploadMethod div {
+    .upload__img {
         width: 8vh;
         height: 8vh;
         align-items: stretch;
@@ -218,7 +218,7 @@ body {
         height: 75%;
         top: 25vh;
     }
-    .whiteBarContainer {
+    .storage__whiteBarContainer {
         left: 50%;
         bottom: -20%;
         transform: translate(-50%,0%);
@@ -230,13 +230,13 @@ body {
         background-color: white;
         border-radius: 15px;
     }
-    .storageLeft {
+    .whiteBar__bold {
         margin-right: 5px;
     }
-    .triangle {
+    .whiteBar__triangle {
         border-right: 35px solid transparent;
     }
-    .whiteBar .mainText {
+    .whiteBar__text {
         font-size: 22.4px;
     }
 }
