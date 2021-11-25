@@ -28,10 +28,6 @@ body{
     left:250px;
     top:100px;
     float: left;
-    
-    
-
-
 }
 .profil{
     border-radius: 50%;
@@ -88,6 +84,7 @@ h6{
     top:100px;
     right: 70px;
 }
+
 .div1{
    
     text-align: left;
@@ -133,6 +130,10 @@ button{
     border: 1px solid #30e3cb;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+button:hover{
+    background-color: #30e3cb;
+    color: white;
 }
 .link{
     margin-right: 15px;
