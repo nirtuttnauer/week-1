@@ -78,11 +78,8 @@ body {
 /***** storage *****/
 .storage {
     position: relative;
-    /* display: flex; */
-    /* flex-direction: column; */
     height: 100%;
     flex-basis: 65%;
-    /* justify-content: flex-end; */
 }
 
 .storageBox {
@@ -198,8 +195,6 @@ body {
         flex-basis: 50%;
     }
     .logo {
-        /* display: flex;
-        align-items: stretch; */
         padding: 3vw;
 
     }
