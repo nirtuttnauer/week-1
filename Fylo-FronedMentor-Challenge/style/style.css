@@ -1,0 +1,116 @@
+html
+{
+    width: 100%;
+    height:100%;
+}
+
+body{
+    background-color:hsl(229, 57%, 11%);
+}
+
+
+
+
+.backgroundPhoto{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    top:50%;
+}
+
+.container
+{
+    border: 10px red solid;
+    display: flex;
+    position:absolute;
+    width: 70%;
+    height:220px;
+    top:35%;
+    left:210px;
+}
+
+.box1{
+    flex:1;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 80px 15px 15px;
+    border: 1px white solid;
+
+}
+
+.box2{
+    flex:2;
+    border: 1px white solid;
+    position: relative;
+}
+
+.box2-container
+{
+    position: absolute;
+    width:70%;
+    top:30px;
+    left:15%;
+    height: 150px;
+    border: 1px yellow solid;
+
+}
+
+.progress-bar
+{
+    position:absolute;
+    border: 1px white solid;
+
+    border-radius: 40px 40px 40px 40px;
+    width: 80%;
+    height:15px;
+    top:60px;
+    left:30px;
+    
+}
+
+
+
+.logo
+{
+    position: absolute;
+    top:40px;
+    left: 40px;
+}
+
+.icons-container
+{
+    display: flex;
+    position: relative;
+    top:60%;
+    width: 70%;
+    height:70px;
+    justify-content: space-evenly;
+    left:10px;
+
+}
+
+.icon
+{
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+
+
+.icon-doc{
+    flex:1;
+    order:1;
+}
+
+.icon-upload{
+    flex:1;
+    order:3;
+}
+
+.icon-folder{
+    flex:1;
+    order:2;
+}
+   
+
+
+
