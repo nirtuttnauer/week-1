@@ -1,8 +1,6 @@
 html {
-  height: 842px;
-  width: 595px;
-  margin-left: auto;
-  margin-right: auto;
+  min-height: fit-content;
+  min-width: fit-content;
 }
 
 body {
@@ -20,8 +18,8 @@ body {
   display: flex;
   width: auto;
   height: auto;
-  margin-left: -45%;
-  margin-top: 70%;
+  margin-left: 20%;
+  margin-top: 21%;
   position: relative;
   flex-wrap: wrap;
 }

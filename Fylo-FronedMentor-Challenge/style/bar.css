@@ -18,7 +18,6 @@
   line-height: 75px;
   font-size: 35px;
   font-family: "Segoe UI";
-  animation-direction: reverse;
   background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
 }
 
