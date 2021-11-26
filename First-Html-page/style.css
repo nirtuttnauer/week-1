@@ -22,7 +22,11 @@ body {
 }
 
 header {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap;
   background-color: #e4f9f5;
 }
 .MyPic {
@@ -30,18 +34,22 @@ header {
   height: 160px;
   width: 160px;
 }
-#top_cloud {
-  display: flexbox;
-  padding-left: 80%;
+.text {
+  justify-self: center;
 }
-#bottom_cloud {
-  display: flexbox;
-  padding-left: 10%;
+.top_cloud {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2px 250px 2px 2px;
 }
-#mount {
-  display: flexbox;
-  margin: auto;
-  width: 35%;
+.bottom_cloud {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2px 2px 2px 250px;
+}
+.mount {
+  display: flex;
+  justify-content: center;
 }
 .max_w {
   max-width: 100%;
