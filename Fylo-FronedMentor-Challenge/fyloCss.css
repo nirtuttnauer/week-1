@@ -7,6 +7,18 @@ body{
   background-attachment: fixed;
   background-size: 100% 50% ;
 }
+div{
+  font-family: 'Raleway';
+  font-size: 22.4px;
+  font-weight: normal;
+}
+
+.headline{
+  font-size: 48px;
+
+
+}
+
 .container-1{
     display:flex;  
     align-items:center;
@@ -53,7 +65,6 @@ body{
   padding-top: 40px;
   padding-bottom: 20px;
 }
-
   /* Progress bar gradient */
 progress, progress::-webkit-progress-value {
   width: 400px;
@@ -69,7 +80,6 @@ progress, progress::-webkit-progress-value {
   border-radius: 20px;
   background:  hsl(229, 57%, 11%);
 }
-
 progress::-moz-progress-bar {
   width: 500px;
   border: 0;
@@ -108,3 +118,11 @@ progress::-moz-progress-bar {
     display:flex;  
     justify-content:space-between;
   }
+
+  
+  .text1color{
+    color:  hsl(229, 7%, 55%);
+  }
+
+  
+ 

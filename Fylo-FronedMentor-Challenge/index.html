@@ -7,6 +7,7 @@
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <title>Fylo data storage component</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
   <link rel="stylesheet" href="fyloCss.css">
 
@@ -14,16 +15,10 @@
 
 <body>
 
-
   <div class="bg"></div>
 
   <div class="container-1">
-    
-
-
     <div class="container-1-box box1">
-
-
       <img src="/assets/logo.svg" alt="logo" class="imgLogo">
 
       <div class="iconsContainer">
@@ -36,26 +31,21 @@
         <div class="icon3 iconsContainerBox">
           <img src="/assets/icon-upload.svg" alt="upload">
         </div>
-
-
       </div>
-
     </div>
 
     <div class="container-1-box box2">
       <div class="lineBar">
-        <p > You have used 815 gb!</p>
-          <div class="whiteDiv">
-          <span class="leftGB">185</span>  GB LEFT
-          </div>
-          <div class="triangle-topright">
-          </div>
+        <p> You have used 815 gb!</p>
+        <div class="whiteDiv" style="font-weight: bold;">
+          <span class="leftGB" >185</span> <span class="text1color">GB LEFT</span>
+        </div>
+        <div class="triangle-topright">
+        </div>
         <progress color="red" value="815" max="1000"> </progress>
-
         <p class="value"> <span class="minValue">0 GB</span><span class="maxValue">1000GB</span></p>
       </div>
     </div>
-
 </body>
 
 </html>
