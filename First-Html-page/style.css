@@ -25,6 +25,11 @@ header {
   display: flexbox;
   background-color: #e4f9f5;
 }
+.MyPic {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+}
 #top_cloud {
   display: flexbox;
   padding-left: 80%;
