@@ -1,7 +1,6 @@
 
 ### Colors: 
     Progress bar gradient = hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
-    Site background = hsl(229, 57%, 11%)
     Floating sections = hsl(228, 56%, 26%)
     Text 1 color = hsl(229, 7%, 55%)
     Text 2 color = white
@@ -15,13 +14,8 @@
     Row Width = 80%
     Col Gap = 32px;
 
----
-
-## Preview
-
 ![!preview](./design/desktop-design.jpg)
 
-**GOOD LUCK!**🚀
 
 
 
