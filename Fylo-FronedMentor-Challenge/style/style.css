@@ -11,7 +11,7 @@ body {
   background-position: center bottom;
   background-attachment: fixed;
   background-size: contain;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .container {
@@ -22,6 +22,7 @@ body {
   margin-top: 21%;
   position: relative;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .boxes {
   display: flex;
