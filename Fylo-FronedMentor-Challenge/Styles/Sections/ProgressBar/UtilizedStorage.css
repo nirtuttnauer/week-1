@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+.progress-bar-utilized-storage {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-size: 14px;
+}

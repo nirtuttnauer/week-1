@@ -1,0 +1,9 @@
+.upload-section {
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 12px 80px 12px 12px;
+    height: 150px;
+    width: 250px;
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 3.75em;
+}

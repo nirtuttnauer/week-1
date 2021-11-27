@@ -1,0 +1,7 @@
+.background {
+    height: 890px;
+    position: relative;
+    background-color: hsl(229, 57%, 11%);
+    padding: 0;
+    margin: 0;
+}

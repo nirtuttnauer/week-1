@@ -1,0 +1,9 @@
+.wave-1 {
+    background-color: #0e1b3d;
+    position: absolute;
+    height: 55%;
+    width: 25%;
+    right: 0;
+    border-radius: 0 0 0 100%;
+    z-index: 1;
+}

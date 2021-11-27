@@ -1,0 +1,9 @@
+.sections {
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 30px;
+    z-index: 2;
+}

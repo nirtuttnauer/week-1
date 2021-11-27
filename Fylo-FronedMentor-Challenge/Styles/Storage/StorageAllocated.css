@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+.storage-allocated {
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    column-gap: 302.71px;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+}

@@ -1,0 +1,12 @@
+.progress-bar-background {
+    position: relative;
+    position: absolute;
+    background-color: hsl(229, 57%, 11%);
+    height: 17px;
+    width: 400px;
+    border-radius: 18px;
+    left: 50px;
+    right: 50px;
+    top: 52.5px;
+    bottom: 52.5px;
+}

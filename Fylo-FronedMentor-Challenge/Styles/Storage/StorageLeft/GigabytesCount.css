@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+.gigabytes-count {
+    position: absolute;
+    left: 0;
+    top: 0;
+    left: 10px;
+    color: hsl(229, 57%, 11%);
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Raleway';
+}

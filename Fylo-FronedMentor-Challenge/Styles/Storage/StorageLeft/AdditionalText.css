@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+.additional-text {
+    position: absolute;
+    margin-left: 15px;
+    top: 43%;
+    right: 10px;
+    color: hsl(229, 7%, 55%);
+    font-size: 11px;
+    font-weight: 900;
+    font-family: "Raleway";
+}

@@ -1,0 +1,10 @@
+.wave-3 {
+    background-color: #1c295e;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    right: 0;
+    z-index: 1;
+    left: 0;
+    border-bottom-right-radius: -50px;
+}

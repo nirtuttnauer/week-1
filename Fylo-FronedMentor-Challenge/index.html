@@ -2,21 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
   <title>Fylo data storage component</title>
+  <!-- Linking CSS files (Buttons): -->
+  <link rel="stylesheet" href="./Styles/Buttons/Document.css" />
+  <link rel="stylesheet" href="./Styles/Buttons/Folder.css" />
+  <link rel="stylesheet" href="./Styles/Buttons/Confirm.css" />
+  <!-- Linking CSS files (Background): -->
+  <link rel="stylesheet" href="./Styles/Background/Background.css" />
+  <link rel="stylesheet" href="./Styles/Background/BackgroundDecoration.css" />
+  <link rel="stylesheet" href="./Styles/Background/Wave1.css" />
+  <link rel="stylesheet" href="./Styles/Background/Wave2.css" />
+  <link rel="stylesheet" href="./Styles/Background/Wave3.css" />
+  <link rel="stylesheet" href="./Styles/Background/BackgroundCurves.css" />
+  <!-- Linking CSS files (Sections) -->
+  <link rel="stylesheet" href="./Styles/Sections/Upload/Upload.css" />
+  <link rel="stylesheet" href="./Styles/Sections/Sections.css" />
+  <link rel="stylesheet" href="./Styles/Sections/ProgressBar/ProgressBar.css" />
+  <!-- Linking CSS files (Progress Bar) -->
+  <link rel="stylesheet" href="./Styles/Sections/ProgressBar/ProgressBarColoured.css" />
+  <link rel="stylesheet" href="./Styles/Sections/ProgressBar/ProgressBarBackground.css" />
+  <link rel="stylesheet" href="./Styles/Sections/ProgressBar/ProgressBarIndicator.css" />
+  <link rel="stylesheet" href="./Styles/Sections/ProgressBar/UtilizedStorage.css" />
+  <!-- Linking CSS files (ButtonsDiv) -->
+  <link rel="stylesheet" href="./Styles/ButtonsDiv/UploadButtons.css" />
+  <!-- Linking CSS files (Button Images) -->
+  <link rel="stylesheet" href="./Styles/ButtonsLabels/Document.css" />
+  <link rel="stylesheet" href="./Styles/ButtonsLabels/Folder.css" />
+  <link rel="stylesheet" href="./Styles/ButtonsLabels/Confirm.css" />
+  <!-- Linking CSS files (Fylo Logo) -->
+  <link rel="stylesheet" href="./Styles/Logo/LogoDiv.css" />
+  <link rel="stylesheet" href="./Styles/Logo/LogoImage.css" />
+  <!-- Linking CSS files (Storage Allocation) -->
+  <link rel="stylesheet" href="./Styles/Storage/StorageAllocated.css" />
+  <!-- Linking CSS files (Storage Left (Speech Bubble)) -->
+  <link rel="stylesheet" href="./Styles/Storage/StorageLeft/StorageLeft.css" />
+  <link rel="stylesheet" href="./Styles/Storage/StorageLeft/StorageLeftBefore.css" />
+  <link rel="stylesheet" href="./Styles/Storage/StorageLeft/GigabytesCount.css" />
+  <link rel="stylesheet" href="./Styles/Storage/StorageLeft/AdditionalText.css" />
+
 </head>
 
-<body>
+<body class="background">
+    <div class="background-decoration">
+      <img src="assets/bg-desktop.png" class="background-curves" >
+      <!-- <div class="wave-1">
 
-  You’ve used 815 GB of your storage
+      </div>
+      <div class="wave-2">
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+      </div>
+      <div class="wave-3">
+
+      </div>
+      <div class="wave-4">
+
+      </div> -->
+    </div>
+    <div class="sections">
+      <div class="upload-section">
+        <div class="fylo-logo">
+          <img src="assets/logo.svg" class="fylo-logo-image">
+        </div>
+
+        <div class="upload-buttons">
+          <input type="file" class="upload-button-document-input">
+          <input type="file" class="upload-button-folder-input">
+          <input type="submit" class="upload-button-confirm-input">
+          
+          <div class="upload-button-document-input-label-div">
+            <label for="upload-button-document-input" class="upload-button-document-input-label">
+              <img src="assets/icon-document.svg" class="upload-button-document">
+            </label>
+          </div>
+
+          <div class="upload-button-folder-input-label-div">
+            <label for="upload-button-folder-input" class="upload-button-folder-input-label">
+              <img src="assets/icon-folder.svg" class="upload-button-folder">
+            </label>
+          </div>
+
+          <div class="upload-button-confirm-input-label-div">
+            <label for="upload-button-confirm-input" class="upload-button-confirm-input-label">
+              <img src="assets/icon-upload.svg" class="upload-button-confirm">
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="progress-bar-section">
+        <!-- <div class="storage-left-div"> -->
+          <blockquote class="storage-left">
+            <p class="storage-left-conclusive">
+              <span class="gigabytes-count">185</span>
+            <span class="additional-text">GB LEFT</span>
+            </p>
+          </blockquote>
+        <!-- </div> -->
+        <div class="progress-bar-utilized-storage">
+          <p>You've used <b>815 GB</b> of your storage</p>
+        </div>
+        <div class="progress-bar-background">
+          <div class="progress-bar">
+            <div class="progress-bar-indicator">
+            </div>
+          </div>
+          <div class="storage-allocated">
+            <div class="storage-allocated-start">
+              <p><strong>0 GB</strong></p>
+            </div>
+
+            <div class="storage-allocated-finish">
+              <p><strong>1000 GB</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

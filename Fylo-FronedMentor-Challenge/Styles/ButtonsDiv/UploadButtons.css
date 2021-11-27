@@ -1,0 +1,5 @@
+.upload-buttons {
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 1em;
+}

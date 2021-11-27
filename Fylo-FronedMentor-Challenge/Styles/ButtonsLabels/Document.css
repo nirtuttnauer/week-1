@@ -1,0 +1,8 @@
+.upload-button-document {
+    padding: 5px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: hsl(229, 57%, 11%);
+    height: 20px;
+    width: 16.6px;
+}

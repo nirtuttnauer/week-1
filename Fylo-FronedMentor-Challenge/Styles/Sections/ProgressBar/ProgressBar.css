@@ -1,0 +1,10 @@
+.progress-bar-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: hsl(228, 56%, 26%);
+    width: 500px;
+    height: 120px;
+    border-radius: 12px 12px 12px 12px;
+}
