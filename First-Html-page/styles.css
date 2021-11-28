@@ -18,21 +18,21 @@ body{
 h1{
     text-align:center;
     font-size: 5rem;
-color:#66BFBF;
-font-family: 'Sacramento', cursive;
+  color:#66BFBF;
+  font-family: 'Sacramento', cursive;
 }
   hr.new{
-      color:#EAF6F6;
+    color:#EAF6F6;
     border: dotted  6px;
     border-bottom: none;
     width: 4%;
     margin: 50px auto;
 }
   
-  .content{
+.content{
    
-      height: 200px;
-      margin-right: 200px; 
+    height: 200px;
+    margin-right: 200px; 
     
   }
   .content2{
@@ -44,8 +44,8 @@ font-family: 'Sacramento', cursive;
   .ribbon {
       height: 100px;
     position: absolute;
- margin-left: 750px;
- margin-bottom: 50px;
+    left: 1550px;
+    bottom: -200px;
   
  } .ribbon2 {
   height: 100px;
@@ -62,8 +62,8 @@ h2,h3,h5{
     color: #66BFBF
 }
 .btn{
-  background:#11cdd4;
-  color:white ;
+  background: #11cdd4;
+  color: white ;
   border: none;
   padding: 10px 32px;
   font-size: 30px;
