@@ -53,6 +53,9 @@ font-family: 'Sacramento', cursive;
 position: absolute;
 
  }
+ .center{
+   position: relative;
+  bottom :0;}
 h2,h3,h5{
     text-align:center;
     font-family: 'Montserrat', sans-serif;
@@ -62,8 +65,8 @@ h2,h3,h5{
   background:#11cdd4;
   color:white ;
   border: none;
-  padding: 15px 32px;
-  font-size: 20px;
+  padding: 10px 32px;
+  font-size: 30px;
   border-radius: 8px;
   font-family:'Merriweather', serif;
 }
