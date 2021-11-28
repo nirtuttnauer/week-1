@@ -1,4 +1,3 @@
-
 body{
   background-color:  hsl(229, 57%, 11%);
   background-image: url(/assets/bg-desktop.png);
@@ -16,7 +15,6 @@ div{
   font-size: 48px;
 }
 .container-1{
-
     display:flex;  
     align-items:center;
     justify-content:space-between;
@@ -26,7 +24,7 @@ div{
     top: 25%;
     right: 10%;
     left: 10%;
-    bottom:25%;
+    bottom: 20%;
   }
 .container-1 .container-1-box{
   background-color: hsl(228, 56%, 26%);
@@ -39,15 +37,16 @@ div{
   border-top-right-radius: 80px;
 }
 .container-1-box{
-  
+  padding-bottom: 20em;
+  margin-bottom: 2em;
   flex-basis: 40%;  
 }
 .iconsContainerBox{
-  flex-basis: 5%;
+  flex-basis: 10%;
     
 }
 .iconsContainer .iconsContainerBox{
-  background-color:hsl(243, 100%, 10%);
+  background-color:hsl(240, 40%, 2%);
   border-radius: 7px;
   height: 20px;
   padding: 10px;
@@ -57,7 +56,8 @@ div{
   position: static;
   display:flex;  
   justify-content: space-around;
-  margin-right: 55%;
+  margin-right: 40%;
+  margin-left: 5%;
 }
 .imgLogo{
   padding: 10px;
@@ -120,6 +120,29 @@ progress::-moz-progress-bar {
   .text1color{
     color:  hsl(229, 7%, 55%);
   }
-
-  
  
+  @media only screen and (max-width: 680px) {
+    body{  
+      background-image: url(/assets/bg-mobile.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover ;
+    }
+    .whiteDiv{
+      position: absolute;
+      right: 25%;
+      bottom: -50%;
+      padding: 15px;
+      color: black;
+      background-color: white;
+      width: 140px;
+      border-radius: 7px;
+      }
+      .triangle-topright {
+        border-top: 0px ;
+        border-left: 0px ;
+      }
+      .iconsContainer{
+        margin-left: 20%;
+      }
+  }
