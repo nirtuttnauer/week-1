@@ -142,12 +142,34 @@ span.whiteModified{
     font-size:15px;
 }
 
-#progressBar{
+#progress-bar-main{
     position:absolute;
     width:85%;
-    top:46%;
+    top:49%;
+    background-color:hsl(229, 57%, 11%);
+    border-radius:10px;
     left:7.5%;
-    height:21px;
+    height:14px;
+}
+
+#progress-bar-middle{
+    position:absolute;
+    width:65%;
+    top:50%;
+    background-image:linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius:10px;
+    left:8%;
+    height:10px;
+}
+
+#progress-bar-dot{
+    position:absolute;
+    background-color:white;
+    border-radius:100%;
+    height:8px;
+    width:8px;
+    top:51%;
+    left:71.5%;
 }
 
 #emptyBarNumber{
