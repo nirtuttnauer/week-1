@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather';
+}
+
+
+
+h1{
+    
+    margin-top: 0px;
+    font-family: 'Sacramento';
+    color:#66BFBF;
+    font-size: 3.3rem;
+}
+
+h2{
+    font-family: 'Montserrat';
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat';
+    color: #11999E;
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+h4{
+    font-family: 'Montserrat';
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    color:#66BFBF ;
+}
+h6{
+    font-family: 'Montserrat';
+}
+p{
+    font-size: 0.7rem;
+    /*gap between rows*/
+    line-height: 2;
+
+
+
+}
+span{
+    text-decoration: underline;
+}
+
+hr{
+    border: none;
+   border-top: dotted;
+   border-width: 5px;
+   width: 40px;
+   color:#EAF6F6;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+button{
+    color:white;
+    background-color: #11cdd4;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    transition: 500ms ease-in-out;
+    cursor: pointer;
+
+
+}
+button:hover{
+    background-color: #30e3cb;
+}
+
+#top-section{
+    text-align: center;
+    
+    background-color: #E4F9F5;
+    padding-top: 150px;
+}
+
+#left-cloud{
+    position: absolute;
+    bottom: 350px;
+    left: 150px;
+}
+
+#right-cloud{
+    position: absolute;
+    top: 40px;
+    right: 250px;
+}
+
+#mid-section{
+    padding-top: 75px;
+    text-align: center;
+    
+}
+
+
+.icons{
+    height: 100px;
+    width: 100px;
+}
+
+#skills{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    
+}
+.skill-row{
+    margin: 10px auto 20px auto;
+    width: 40%;
+    padding-top: 20px;
+    text-align: justify;
+}
+.skill-row-text{
+    padding: 10px;
+    margin-top:10px;
+}
+
+#desdev{
+    float: right;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#debug{
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+    
+}
+
+#bottom-section{
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #66BFBF;
+    text-align: center;
+}
+
+.contact{
+    color: #11999E;
+}
+.contact-websites{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+#devclub{
+    color:white;
+    padding: 0;
+}
+
+
+
+
