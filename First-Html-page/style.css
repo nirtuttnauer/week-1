@@ -1,0 +1,147 @@
+body,html{
+    margin: 0;
+}
+p{
+    line-height: 1.5;
+}
+h1,h2{
+    color: #66BFBF;
+    margin: 0;
+}
+h2{
+    text-align: center;
+}
+.skills h2{
+    padding-bottom: 6rem;
+}
+h3 {
+    color: #11999E;
+}
+h1{
+    font-size: 3.25rem;
+    font-family: 'Sacramento';
+    padding-bottom: 3rem;
+}
+h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.button{
+    padding: 10px;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5rem;
+    border: 0;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #11cdd4;
+    color: white;
+    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1340.cur), auto !important;
+}
+.button:hover{
+    color: #30e3cb;
+}
+a{
+    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1340.cur), auto !important;
+}
+.header{
+    position: relative;
+    text-align: center;
+    background-color: #E4F9F5;
+    padding-top:8rem;
+}
+
+.under-line{
+    text-decoration: underline;
+}
+.programmer-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hello-section{
+    text-align: center;
+}
+hr{
+    border-style:none;
+    border-top-style: dotted;
+    border-color: #EAF6F6; 
+    border-width: 6px;
+    width: 4%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.touch-footer{
+    padding-top:5rem;
+}
+.touch-footer h3,h2{
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.touch-footer p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+    word-wrap: break-word;
+}
+.touch-footer h3{
+    padding-bottom: 2rem;
+}
+.footer{
+    padding-top: 2rem;
+    text-align: center;
+    background-color: #66BFBF;
+}
+.footer img{
+    backface-visibility: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    width: 75px;
+    height: 75px;
+}
+.footer p {
+  text-align: start;
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.all-skills {
+    text-align: center;
+    padding: 5rem;
+}
+.skills {
+    margin-top: 5rem;
+}
+.skill {
+    padding-right: 12rem;
+    padding-left: 12rem;
+    display: flex;
+}
+.skill img {
+    padding-left: 2rem;
+    width: 200px;
+    height: 100px;
+}
+.skill-text {
+    text-align: start;
+}
+.skill2 {
+    display: flex;
+    margin-top: 5rem;
+    padding-right: 15rem;
+    padding-left: 12rem;
+}
