@@ -131,6 +131,7 @@ p {
         top: -35%;
         right: 5%;
         height: 80px;
+        width: 180px;
         border-bottom-right-radius: 0;
     }
     .bar-text{
