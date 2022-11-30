@@ -1,35 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="Style.css" rel="stylesheet">
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+<img src="images/bg-pattern-top.svg" class="z-1 abs" id="top-cir">
+<img src="images/bg-pattern-bottom.svg" class="z-1 abs" id="bot-cir">
+<div class="flexbox centered" id="">
+    <div class="rounded-top wide" id="shadow">
+        <div class="rounded-top bg-card">
+            <img id="avatar" src="images/image-victor.jpg">
+        </div>
+        <div class="bg-white rounded-bot" id="info">
+            <div>
+                <div class="flexbox flex-row" id="name">
+                    <h1>Victor Crest</h1>
+                    <h1 class="text-grey">26</h1>
+                </div>
+                <div>
+                    <h3 class="text-grey">London</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="flex-row flexbox" id="stats">
+                <div class="">
+                    <h1>
+                        80K
 
-  80K
-  Followers
+                    </h1>
+                    <p class="text-grey">
+                        Followers
+                    </p>
+                </div>
+                <div>
+                    <h1>
+                        803K
+                    </h1>
+                    <p class="text-grey">
+                        Likes
+                    </p>
+                </div>
+                <div>
+                    <h1>
+                        1.4K
+                    </h1>
+                    <p class="text-grey">
+                        Photos
+                    </p>
+                </div>
 
-  803K
-  Likes
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+</div>
 </body>
 </html>

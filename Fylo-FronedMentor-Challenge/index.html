@@ -1,22 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Fylo data storage component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+    <title>Fylo data storage component</title>
+
+    <!--    Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--    CSS-->
+    <link href="Styles/Styles.css" rel="stylesheet">
+    <link href="Styles/metaStyles.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="txt-font">
+<div class="">
+    <div class="">
+        <div class="flexbox flex-row centered z0 shadow">
 
-  You’ve used 815 GB of your storage
+            <!--left side-->
+            <div class="bg-card centered pad-s marg-s marg-center" id="border-l">
+                <img src="assets/logo.svg" id="logo">
+                <div>
+                    <div class="flex flex-row centered">
+                        <button class="bg-midnight rounded centered pad-s marg-s noborder"><img src="assets/icon-document.svg"></button>
+                        <button class="bg-midnight rounded centered pad-s marg-s noborder"><img src="assets/icon-folder.svg"></button>
+                        <button class="bg-midnight rounded centered pad-s marg-s noborder"><img src="assets/icon-upload.svg"></button>
+                    </div>
+                </div>
+            </div>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+
+            <!--right side-->
+            <div class="flex flex-row marg-s pos-rel marg-center">
+
+                <!--        and the rest-->
+                <div class="bg-card rounded block" id="r">
+                    <div class="">
+                        <p class="bar-text">You’ve used <span class="txt-white txt-bold">815 GB</span> of your storage
+                        </p>
+                        <br>
+                        <div class="bar">
+                            <div class="progress-bar z0">
+                                <div class="progress z1">
+                                    <div class="circle bg-white z2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="bar-text-container">
+                                <p class="txt-white float-l">0 GB</p>
+                                <p class="txt-white float-r">1000 GB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--        bubble-->
+                <div class="pos-rel bubble-container">
+                    <div class="bg-white rounded flex flex-row centered z1 pad-s-l pad-s-r pos-abs" id="bubble"><h1>185</h1>
+                        <p class="pad-s-l">GB Left</p></div>
+                    <div class="triangle"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>

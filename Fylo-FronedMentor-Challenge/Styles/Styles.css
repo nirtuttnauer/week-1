@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    min-height: 100%;
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    body{
+        background: hsl(229, 57%, 11%) url("../assets/bg-desktop.png") no-repeat bottom;
+        background-position-y: bottom;
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    body{
+        background: url("../assets/bg-mobile.png") no-repeat center center fixed;
+        background-size: cover;
+        background-color: hsl(229, 57%, 11%);
+    }
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+}
+ul {
+    list-style-type: none;
+}
+
+p {
+    font-size: 19px;
+    font-weight: normal;
+    color:hsl(229, 7%, 55%);
+}
+
+
+.progress-bar{
+    border-radius: 30px;
+    height: 27px;
+    background-color: hsl(229, 57%, 11%);
+    width: 100%;
+    border: 4px solid hsl(229, 57%, 11%);;
+}
+.progress{
+    border-radius: 30px;
+    height: 20px;
+    background-image: linear-gradient(90deg,hsl(6, 100%, 80%) , hsl(335, 100%, 65%)) ;
+    width: 75%;
+}
+
+
+.circle{
+    float: right;
+    margin: 1px 2px 1px 2px;
+    width: 18px;
+    position: relative;
+    border-radius: 100%;
+    height: 18px;
+    z-index: 2;
+}
+
+
+
+#logo{
+    margin: 10px;
+    text-align: left;
+    size: 30px;
+}
+
+#border-l{
+    padding-right: 140px;
+    border-radius: 15px 100px 15px 15px;
+}
+@media screen and (max-width: 1200px) {
+    .bar{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #r{
+        padding: 0 30px 30px;
+        width: 100%;
+    }
+    .bar-text{
+        padding-top: 30px;
+        padding-bottom: -40px;
+    }
+    .bubble-container{
+        right: 65%;
+        bottom: -140px;
+    }
+    #bubble{
+        padding: 10px;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    .bar{
+        padding: 30px 0;
+        width: 600px;
+
+
+    }
+    #r{
+        bottom: -30px;
+         padding: 20px 30px ;
+     }
+    .triangle{
+        margin: 23px 1px 0 0;
+        width: 0;
+        height: 0;
+        border-right: 10px solid white;
+        border-top: 10px solid white;
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+
+    }
+    .bubble-container{
+        right: 50px;
+    }
+    #bubble{
+
+        top: -35%;
+        right: 5%;
+        height: 80px;
+        border-bottom-right-radius: 0;
+    }
+    .bar-text{
+    padding: 10px;
+        float: left;
+    }
+}
+
+
+
+
+

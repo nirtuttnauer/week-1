@@ -1,0 +1,125 @@
+body {
+
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+p{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+
+}
+.text-grey{
+    color:hsl(0, 0%, 59%);
+}
+.bg-card {
+    background-image: url("images/bg-pattern-card.svg");
+    padding: 50px;
+}
+
+.bg-white {
+    background-color: white;
+    position: relative;
+    top: -40px;
+}
+
+#avatar {
+    scale: 100%;
+    z-index: 2;
+    border-radius: 100%;
+    border: 10px solid white;
+    align-self: center;
+    bottom: -80px;
+    position: relative;
+    /*position: absolute;*/
+}
+
+.flexbox {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.centered {
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.rounded-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.rounded-bot{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+@media screen and (min-width: 1440px){
+    .wide {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 370px){
+    .wide {
+        width: 100%;
+    }
+}
+
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.z-1 {
+    z-index: -1;
+}
+
+#top-cir {
+    scale: 50%;
+    bottom: 0px;
+    left: -10px;
+}
+
+#bot-cir {
+    scale: 50%;
+    top: 0px;
+    right: -10px;
+
+}
+#info{
+    padding-top: 30px;
+    padding-bottom: -30px;
+}
+#name{
+    /*position: relative;*/
+    margin-left: 20%;
+}
+#name h1{
+    margin-left: 20px;
+}
+#stats{
+    margin-left: 20%;
+    position: relative;
+}
+.flex-row{
+    align-self: center;
+    flex-direction: row;
+}
+/*#shadow{*/
+/*    box-shadow: 10px 10px 40px black;*/
+/*}*/

@@ -1,0 +1,193 @@
+/*DISPLAY STYLES*/
+
+/*BLOCK*/
+.block-inline {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+/*GRID*/
+.grid {
+    display: grid;
+    column-gap: 32px;
+}
+
+.grid-inline {
+    display: inline-grid;
+    column-gap: 32px;
+}
+
+.grid-item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*FLEX*/
+
+@media screen and (min-width: 1200px) {
+    .flexbox {
+        display: flex;
+    }
+    .flex-col {
+        flex-direction: column;
+    }
+    .flex-row {
+        flex-direction: row;
+    }
+}
+.flex{
+    display: flex;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+/*OTHER*/
+.full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+/*TEXT STYLES*/
+.txt-white {
+    color: white;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.txt-font {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*BACKGROUND*/
+/*@media screen and (min-width: 600px) {*/
+    .bg-midnight {
+        background-color: hsl(229, 57%, 11%);
+    }
+/*}*/
+
+
+.bg-card {
+    background-color: hsl(228, 56%, 26%);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+/*STYLES*/
+
+.rounded {
+    border-radius: 15px;
+}
+
+.shadow {
+    filter: drop-shadow(30px 10px 40px rgba(0, 0, 0, 50%));
+}
+
+/*ALIGNS*/
+.centered {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+/*z-index*/
+.z-1 {
+    z-index: -1;
+}
+
+.z0 {
+    z-index: 0;
+}
+
+.z1 {
+    z-index: 1;
+}
+
+.z2 {
+    z-index: 2;
+}
+
+.pad-s {
+    padding: 15px;
+}
+
+.pad-m {
+    padding: 50px;
+}
+
+.pad-l {
+    padding: 100px;
+}
+.pad-s-b{
+    padding-bottom: 10px;
+}
+.pad-s-r{
+    padding-right: 10px;
+}
+.pad-s-l{
+    padding-left: 10px;
+}
+
+/*MARGINS*/
+
+.marg-s {
+    margin: 10px;
+}
+
+.marg-m {
+    margin: 30px;
+}
+
+.marg-l {
+    margin: 100px;
+}
+
+.marg-s-b{
+    margin-bottom: 10px;
+}
+
+.marg-center{
+    margin-bottom: 22%;
+    margin-top: 22%;
+}
+
+.noborder{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
