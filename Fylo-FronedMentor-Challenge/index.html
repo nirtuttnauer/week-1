@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +17,8 @@
     <!--    CSS-->
     <link href="Styles/Styles.css" rel="stylesheet">
     <link href="Styles/metaStyles.css" rel="stylesheet">
+<!--    JS-->
+
 </head>
 
 <body class="txt-font">
@@ -29,9 +31,18 @@
                 <img src="assets/logo.svg" id="logo">
                 <div>
                     <div class="flex flex-row centered">
-                        <button class="bg-midnight rounded centered pad-s marg-s noborder"><img src="assets/icon-document.svg"></button>
-                        <button class="bg-midnight rounded centered pad-s marg-s noborder"><img src="assets/icon-folder.svg"></button>
-                        <button class="bg-midnight rounded centered pad-s marg-s noborder"><img src="assets/icon-upload.svg"></button>
+                        <button class="bg-midnight rounded centered pad-s marg-s noborder"><img
+                                src="assets/icon-document.svg"></button>
+                        <button class="bg-midnight rounded centered pad-s marg-s noborder" id="clear"><img
+                                src="assets/icon-folder.svg"></button>
+                        <label for="choose-file"
+                               class="custom-file-upload bg-midnight rounded centered pad-s marg-s noborder"
+                               id="choose-file-label">
+                            <img src="assets/icon-upload.svg">
+                        </label>
+                        <input name="uploadDocument" type="file" id="choose-file"
+                               accept="" style="display: none;" multiple/>
+
                     </div>
                 </div>
             </div>
@@ -43,28 +54,29 @@
                 <!--        and the rest-->
                 <div class="bg-card rounded block" id="r">
                     <div class="">
-                        <p class="bar-text">You’ve used <span class="txt-white txt-bold">815 GB</span> of your storage
+                        <p class="bar-text">You’ve used <span class="txt-white txt-bold" id="sizeOccupied">815 GB</span> of your storage
                         </p>
                         <br>
                         <div class="bar">
                             <div class="progress-bar z0">
-                                <div class="progress z1">
+                                <div class="progress z1" id="progress">
                                     <div class="circle bg-white z2"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="">
                             <div class="bar-text-container">
-                                <p class="txt-white float-l">0 GB</p>
-                                <p class="txt-white float-r">1000 GB</p>
+                                <p class="txt-white float-l" >0 GB</p>
+                                <p class="txt-white float-r" id="totalSize">1000 GB</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--        bubble-->
                 <div class="pos-rel bubble-container">
-                    <div class="bg-white rounded flex flex-row centered z1 pad-s-l pad-s-r pos-abs" id="bubble"><h1>185</h1>
-                        <p class="pad-s-l">GB Left</p></div>
+                    <div class="bg-white rounded flex flex-row centered z1 pad-s-l pad-s-r pos-abs" id="bubble"><h1 id="sizeLeft">
+                        185</h1>
+                        <p class="pad-s-l" id="size-left-type">GB Left</p></div>
                     <div class="triangle"></div>
                 </div>
 
@@ -74,6 +86,6 @@
     </div>
 
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>

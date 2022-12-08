@@ -140,7 +140,16 @@ p {
     }
 }
 
+input[type="file"] {
+    font-size: 8px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    opacity: 100%;
+}
 
-
-
+input::file-selector-button{
+    height: 40px;
+    width: 0px;
+}
 
