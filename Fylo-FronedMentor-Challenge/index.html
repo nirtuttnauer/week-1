@@ -41,7 +41,7 @@
                             <img src="assets/icon-upload.svg">
                         </label>
                         <input name="uploadDocument" type="file" id="choose-file"
-                               accept="" style="display: none;" multiple/>
+                               accept="" onchange="onFileInputChange(this)" style="display: none;" multiple/>
 
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                 <div class="pos-rel bubble-container">
                     <div class="bg-white rounded flex flex-row centered z1 pad-s-l pad-s-r pos-abs" id="bubble"><h1 id="sizeLeft">
                         185</h1>
-                        <p class="pad-s-l" id="size-left-type">GB Left</p></div>
+                        <p class="pad-s-l" id="size-left-type">MB Left</p></div>
                     <div class="triangle"></div>
                 </div>
 
